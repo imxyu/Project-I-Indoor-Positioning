@@ -1,0 +1,41 @@
+..\obj\coor.o: coor.c
+..\obj\coor.o: coor.h
+..\obj\coor.o: stm32f4xx.h
+..\obj\coor.o: ..\CORE\core_cm4.h
+..\obj\coor.o: D:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\coor.o: ..\CORE\core_cmInstr.h
+..\obj\coor.o: ..\CORE\core_cmFunc.h
+..\obj\coor.o: ..\CORE\core_cm4_simd.h
+..\obj\coor.o: system_stm32f4xx.h
+..\obj\coor.o: stm32f4xx_conf.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_adc.h
+..\obj\coor.o: ..\USER\stm32f4xx.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_crc.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_dbgmcu.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_dma.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_exti.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_flash.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_gpio.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_i2c.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_iwdg.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_pwr.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_rcc.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_rtc.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_sdio.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_spi.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_syscfg.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_tim.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_usart.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
+..\obj\coor.o: ..\FWLIB\inc\misc.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_cryp.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_hash.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_rng.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_can.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_dac.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
+..\obj\coor.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
+..\obj\coor.o: D:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\coor.o: ..\INTERFACE\oled.h
+..\obj\coor.o: ..\SYSTEM\sys\sys.h
+..\obj\coor.o: D:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

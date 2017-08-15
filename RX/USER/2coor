@@ -1,0 +1,246 @@
+void Coor_Find(int x,int y)
+{
+	if (x==0 && y==0)						//A11
+	{
+		lx=-30,ly=30;
+	}
+	if (x==0 && y==1)						//A12
+	{
+		lx=-20,ly=30;
+	}
+	if (x==0 && y==2)						//A13
+	{
+		lx=-10,ly=30;
+	}
+	if (x==0 && y==3)
+	{
+		lx=0,ly=30;
+	}
+	if (x==0 && y==4)
+	{
+lx=10,ly=30;
+	}
+	if (x==0 && y==5)
+	{
+		lx=20,ly=30;
+	}
+	if (x==0 && y==6)					//A17
+	{
+lx=30,ly=30;
+	}
+
+	if (x==1 && y==0)						//A21
+	{
+lx=-30,ly=20;
+	}
+	if (x==1 && y==1)						//A22
+	{
+lx=-20,ly=-20;
+	}
+	if (x==1 && y==2)						//A23
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-10,20");
+	}
+	if (x==1 && y==3)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-0,20");
+	}
+	if (x==1 && y==4)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"10,20");
+	}
+	if (x==1 && y==5)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"20,20");
+	}
+	if (x==1 && y==6)					//A17
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"30,20");
+	}
+
+	if (x==2 && y==0)						//A31
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-30,10");
+	}
+	if (x==2 && y==1)						//A32
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-20,10");
+	}
+	if (x==2 && y==2)						//A33
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-10,10");
+	}
+	if (x==2 && y==3)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-0,10");
+	}
+	if (x==2 && y==4)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"10,10");
+	}
+	if (x==2 && y==5)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"20,10");
+	}
+	if (x==2 && y==6)					//A37
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"30,10");
+	}
+	
+	if (x==3 && y==0)						//A41
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-30,0");
+	}
+	if (x==3 && y==1)						//A42
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-20,0");
+	}
+	if (x==3 && y==2)						//A43
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-10,0");
+	}
+	if (x==3 && y==3)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-0,0");
+	}
+	if (x==3 && y==4)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"10,0");
+	}
+	if (x==3 && y==5)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"20,0");
+	}
+	if (x==3 && y==6)					//A47
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"30,0");
+	}
+	
+	if (x==4 && y==0)						//A51
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-30,-10");
+	}
+	if (x==4 && y==1)						//A52
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-20,-10");
+	}
+	if (x==4 && y==2)						//A53
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-10,-10");
+	}
+	if (x==4 && y==3)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-0,-10");
+	}
+	if (x==4 && y==4)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"10,-10");
+	}
+	if (x==4 && y==5)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"20,-10");
+	}
+	if (x==4 && y==6)					//A57
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"30,-10");
+	}
+	
+	if (x==5 && y==0)						//A61
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-30,-20");
+	}
+	if (x==5 && y==1)						//A62
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-20,-20");
+	}
+	if (x==5 && y==2)						//A63
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-10,-20");
+	}
+	if (x==5 && y==3)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-0,-20");
+	}
+	if (x==5 && y==4)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"10,-20");
+	}
+	if (x==5 && y==5)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"20,-20");
+	}
+	if (x==5 && y==6)					//A67
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"30,-20");
+	}
+	
+	if (x==6 && y==0)						//A71
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-30,-30");
+	}
+	if (x==6 && y==1)						//A72
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-20,-30");
+	}
+	if (x==6 && y==2)						//A73
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-10,-30");
+	}
+	if (x==6 && y==3)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"-0,-30");
+	}
+	if (x==6 && y==4)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"10,-30");
+	}
+	if (x==6 && y==5)
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"20,-30");
+	}
+	if (x==6 && y==6)					//A77
+	{
+		OLED_Clear();
+		OLED_ShowString(0,0,"30,-30");
+	}
+	
+}
